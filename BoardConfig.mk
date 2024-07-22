@@ -7,6 +7,21 @@
 DEVICE_PATH := device/xiaomi/seur
 PREBUILT_COMPONENTS_PATH := device/xiaomi/seur-prebuilt
 
+# A/B
+AB_OTA_UPDATER := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
+
+AB_OTA_PARTITIONS := \
+    boot \
+    dtbo \
+    system \
+    product \
+    vendor \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
