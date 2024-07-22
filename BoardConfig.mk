@@ -22,5 +22,14 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a55
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := seur
+TARGET_NO_BOOTLOADER := true
+
+# Platform
+TARGET_BOARD_PLATFORM := mt6781
+BOARD_HAS_MTK_HARDWARE := true
+BOARD_VENDOR := xiaomi
+
 # Inherit the proprietary files
 include vendor/xiaomi/seur/BoardConfigVendor.mk
