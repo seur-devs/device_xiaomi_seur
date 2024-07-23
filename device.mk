@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_PATH := device/xiaomi/seur
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -44,7 +46,8 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
-DEVICE_PATH := device/xiaomi/seur
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
