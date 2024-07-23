@@ -45,6 +45,11 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# FastbootD
+PRODUCT_PACKAGES += \
+    fastbootd \
+    android.hardware.fastboot@1.0-impl-mock
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
