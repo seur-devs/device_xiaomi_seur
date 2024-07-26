@@ -59,6 +59,10 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Recovery
+PRODUCT_PACKAGES += \
+    init.recovery.mt6781.rc
+
 # Root Dir
 PRODUCT_PACKAGES += \
     init.aee.rc \
