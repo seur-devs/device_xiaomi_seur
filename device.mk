@@ -83,9 +83,5 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES := \
     $(DEVICE_PATH)
 
-# VNDK
-PRODUCT_TARGET_VNDK_VERSION := 31
-PRODUCT_EXTRA_VNDK_VERSIONS := 31
-
 # Inherit the  proprietary files
 $(call inherit-product, vendor/xiaomi/seur/seur-vendor.mk)
