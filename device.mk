@@ -59,6 +59,23 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Root Dir
+PRODUCT_PACKAGES += \
+    init.aee.rc \
+    init.ago.rc \
+    init.cgroup.rc \
+    init.connectivity.common.rc \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6781.rc \
+    init.mt6781.usb.rc \
+    init.project.rc \
+    init.sensor_1_0.rc \
+    init.stnfc.rc \
+    init_connectivity.rc \
+    fstab.mt6781 \
+    ueventd.mt6781.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
