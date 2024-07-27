@@ -113,6 +113,9 @@ TARGET_BOARD_PLATFORM := mt6781
 BOARD_HAS_MTK_HARDWARE := true
 BOARD_VENDOR := xiaomi
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6781
 
