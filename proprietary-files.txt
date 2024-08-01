@@ -194,7 +194,7 @@ vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libanc_dc_base.so
-vendor/lib64/libc++_shared.so
+vendor/lib64/libc++_shared.so#
 vendor/lib64/libcam.chdr.so
 vendor/lib64/libcam.vhdr.so
 vendor/lib64/libcam.afhal.so
@@ -1165,6 +1165,9 @@ system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.apusys-V2-ndk.so
+
+# NFC
+vendor/firmware/st21nfc_fw7.bin
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
