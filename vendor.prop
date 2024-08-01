@@ -46,3 +46,9 @@ ro.vendor.smvr.p2batch.vga=16
 ro.vendor.smvr.p2batch.hd=8
 ro.vendor.smvr.p2batch.fhd=4
 ro.hardware.hwcomposer=mtk_common
+
+# Trusted Execution Environment (TEE)
+ro.hardware.wechat=beanpod
+ro.vendor.mtk_microtrust_tee_support=1
+ro.vendor.mtk_tee_gp_support=1
+ro.vendor.mtk_svp_on_mtee_support=1
