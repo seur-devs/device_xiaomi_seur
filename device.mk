@@ -111,5 +111,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES := \
     $(DEVICE_PATH)
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.3-service-mediatekv2
+
 # Inherit the  proprietary files
 $(call inherit-product, vendor/xiaomi/seur/seur-vendor.mk)
