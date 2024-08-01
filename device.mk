@@ -132,6 +132,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@1.0.vendor
 
+# HIDL
+PRODUCT_PACKAGES += \
+    libhidltransport.vendor \
+    libhwbinder.vendor
+
 # IMS
 PRODUCT_BOOT_JARS += \
     mediatek-common \
