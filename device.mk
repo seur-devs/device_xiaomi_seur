@@ -156,6 +156,14 @@ PRODUCT_PACKAGES += \
     fstab.mt6781.ramdisk \
     ueventd.mt6781.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    libsensorndkbridge \
+    android.hardware.sensors@1.0.vendor \
+    android.hardware.sensors@2.1.vendor \
+    android.frameworks.sensorservice@1.0.vendor \
+    android.hardware.sensors@2.1-service.multihal
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 

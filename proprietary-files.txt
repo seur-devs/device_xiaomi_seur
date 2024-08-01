@@ -373,6 +373,18 @@ vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
+# Sensors
+vendor/etc/elliptic_sensor.xml
+vendor/etc/sensors/hals.conf
+vendor/lib64/hw/sensors.mt6781.so
+vendor/lib64/hw/sensors.elliptic@2.0.so
+vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
+vendor/lib64/libhwm.so
+vendor/lib64/libnotifyaudiohal.so
+vendor/lib64/libksensor.so
+vendor/lib64/libsensor_custom.so
+vendor/lib64/librgbwlightsensor.so
+
 # Trusted Execution Environment (TEE)
 vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
 vendor/bin/init_thh
