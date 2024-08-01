@@ -307,6 +307,11 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.13.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.14.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.15.so
 
+# Display (Configs)
+vendor/etc/dsi_panel_k7sr_38_0c_0a_video_mi.xml
+vendor/etc/dsi_panel_k7sr_38_0c_0b_video_mi.xml
+vendor/etc/screen_light.xml
+
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
