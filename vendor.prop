@@ -10,6 +10,14 @@ ro.vendor.audio.us.proximity=true
 ro.config.vc_call_vol_default=6
 ro.config.vc_call_vol_steps=10
 
+# Bluetooth
+vendor.bluetooth.ldac.abr=true
+ro.vendor.bt.platform=connac1x
+ro.vendor.bluetooth.wipower=false
+ro.vendor.mtk.bt_sap_enable=true
+ro.vendor.connsys.dedicated.log.port=bt,wifi,gps,mcu
+persist.bluetooth.a2dp_offload.disabled=false
+
 # Display
 debug.mediatek.disp_decompress=1
 debug.sf.disable_backpressure=1

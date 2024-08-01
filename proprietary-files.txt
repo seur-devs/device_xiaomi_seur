@@ -150,6 +150,23 @@ vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
+# Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
+vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
+vendor/firmware/BT_FW.cfg
+vendor/firmware/soc2_2_ram_bt_2_1_hdr.bin
+vendor/firmware/soc2_2_ram_bt_2a_1_hdr.bin
+vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
+vendor/lib/libbluetooth_mtk.so
+vendor/lib/libbluetoothem_mtk.so
+vendor/lib/libbluetooth_mtk_pure.so
+vendor/lib/libbt-vendor.so
+vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
+vendor/lib64/libbluetooth_mtk.so
+vendor/lib64/libbluetoothem_mtk.so
+vendor/lib64/libbluetooth_mtk_pure.so
+vendor/lib64/libbt-vendor.so
+
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
