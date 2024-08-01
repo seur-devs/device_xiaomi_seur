@@ -30,7 +30,6 @@ persist.vendor.connsys.dynamic.dump=0
 persist.vendor.connsys.fm_chipid=mt6631_6635
 
 # Display
-debug.mediatek.disp_decompress=1
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
 debug.sf.treat_170m_as_sRGB=1
@@ -84,6 +83,16 @@ ro.hardware.gatekeeper=beanpod
 # Keymaster
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.hardware.kmsetkey=beanpod
+
+# Media
+debug.mediatek.disp_decompress=1
+persist.vendor.md_c2k_cap_dep_check=0
+media.c2.dmabuf.padding=3072
+ro.vendor.jpeg_decode_sw_opt=1
+ro.vendor.mtk_config_max_dram_size=0x800000000
+ro.vendor.mtk_sec_video_path_support=1
+ro.vendor.mtk_video_hevc_enc_support=1
+vendor.mtk.vdec.waitkeyframeforplay=9
 
 # Trusted Execution Environment (TEE)
 ro.hardware.wechat=beanpod
