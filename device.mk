@@ -87,7 +87,7 @@ PRODUCT_PACKAGES += \
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
-    android.hardware.ir-service.example
+    android.hardware.ir-service.mediatek
 
 # Display
 PRODUCT_PACKAGES += \
