@@ -93,6 +93,11 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0.vendor \
     libdrm.vendor
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm-service.clearkey \
+    android.hardware.drm@1.4.vendor
+
 # FastbootD
 PRODUCT_PACKAGES += \
     fastbootd \
