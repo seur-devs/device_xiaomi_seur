@@ -1,3 +1,15 @@
+# Audio
+aaudio.mmap_policy=2
+aaudio.mmap_exclusive_policy=2
+vendor.audio.powerhal.power.dl=true
+ro.vendor.audio.surround.support=true
+ro.vendor.audio.spk.stereo=true
+ro.vendor.audio.vocal.support=true
+ro.vendor.audio.voice.volume.boost=manual
+ro.vendor.audio.us.proximity=true
+ro.config.vc_call_vol_default=6
+ro.config.vc_call_vol_steps=10
+
 # Display
 debug.mediatek.disp_decompress=1
 debug.sf.disable_backpressure=1
