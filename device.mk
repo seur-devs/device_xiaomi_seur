@@ -119,6 +119,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gnss-service.mediatek
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health-service.mediatek \
+    android.hardware.health-service.mediatek-recovery
+
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0.vendor
+
 # Keymaster
 PRODUCT_PACKAGES += \
     libkeymaster4_1support.vendor \

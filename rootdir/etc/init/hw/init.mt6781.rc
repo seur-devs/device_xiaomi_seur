@@ -191,13 +191,6 @@ on post-fs
     chown root system /proc/ccci_dump
 
 
-service charger /system/bin/charger
-    class charger
-    critical
-    #seclabel u:r:charger:s0
-    group system graphics
-    seclabel u:r:healthd:s0
-
 on post-fs-data
     write /proc/bootprof "INIT:post-fs-data"
 
