@@ -15,8 +15,19 @@ vendor.bluetooth.ldac.abr=true
 ro.vendor.bt.platform=connac1x
 ro.vendor.bluetooth.wipower=false
 ro.vendor.mtk.bt_sap_enable=true
-ro.vendor.connsys.dedicated.log.port=bt,wifi,gps,mcu
 persist.bluetooth.a2dp_offload.disabled=false
+
+# Connectivity
+ro.vendor.connsys.dedicated.log.port=bt,wifi,gps,mcu
+ro.vendor.connsys.dedicated.log=1
+ro.vendor.wifi.sap.concurrent.iface=ap1
+ro.vendor.wifi.sap.interface=ap0
+ro.vendor.wlan.chrdev=wmt_chrdev_wifi
+vendor.connsys.driver.ready=no
+persist.vendor.connsys.chipid=-1
+persist.vendor.connsys.patch.version=-1
+persist.vendor.connsys.dynamic.dump=0
+persist.vendor.connsys.fm_chipid=mt6631_6635
 
 # Display
 debug.mediatek.disp_decompress=1
