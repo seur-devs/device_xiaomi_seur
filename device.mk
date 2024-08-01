@@ -62,6 +62,11 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service
+
 # Keymaster
 PRODUCT_PACKAGES += \
     libkeymaster4_1support.vendor \
