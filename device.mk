@@ -62,6 +62,15 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    libkeymaster4_1support.vendor \
+    libkeymaster41.vendor \
+    libpuresoftkeymasterdevice.vendor \
+    libsoft_attestation_cert.vendor \
+    android.hardware.keymaster@4.1.vendor \
+    android.hardware.hardware_keystore.km41.xml
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
