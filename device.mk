@@ -78,6 +78,7 @@ PRODUCT_PACKAGES += \
     init.stnfc.rc \
     init_connectivity.rc \
     fstab.mt6781 \
+    fstab.mt6781.ramdisk \
     ueventd.mt6781.rc
 
 # Shipping API level
