@@ -110,6 +110,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
 
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss-service.mediatek
+
 # Keymaster
 PRODUCT_PACKAGES += \
     libkeymaster4_1support.vendor \
