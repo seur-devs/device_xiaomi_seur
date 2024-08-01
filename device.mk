@@ -221,6 +221,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6781.ramdisk \
     ueventd.mt6781.rc
 
+# Secure Element
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.2.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge \
