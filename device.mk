@@ -210,7 +210,10 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    FrameworksResOverlaySeur \
     CarrierConfigOverlaySeur \
+    SettingsResOverlaySeur \
+    SystemUIOverlaySeur \
     TelephonyOverlaySeur \
     WiFiOverlaySeur
 
