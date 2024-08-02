@@ -382,7 +382,7 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
-    libkeystore-engline-wifi-hidl \
+    libkeystore-engine-wifi-hidl \
     wpa_supplicant \
     hostapd \
     libwifi-hal-wrapper \
