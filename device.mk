@@ -211,7 +211,8 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlaySeur \
-    TelephonyOverlaySeur
+    TelephonyOverlaySeur \
+    WiFiOverlaySeur
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
