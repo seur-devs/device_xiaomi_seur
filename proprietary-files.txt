@@ -194,7 +194,7 @@ vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libanc_dc_base.so
-vendor/lib64/libc++_shared.so#
+vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.chdr.so
 vendor/lib64/libcam.vhdr.so
 vendor/lib64/libcam.afhal.so
