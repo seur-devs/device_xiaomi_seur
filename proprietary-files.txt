@@ -25,7 +25,6 @@ vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
-vendor/lib/libblisrc32_vendor.soc
 vendor/lib/libbwc.so
 vendor/lib/lib_bsscore.so
 vendor/lib/libcvsd_mtk.so
