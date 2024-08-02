@@ -210,6 +210,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlaySeur \
     TelephonyOverlaySeur
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
