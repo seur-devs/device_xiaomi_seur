@@ -77,7 +77,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := \
+    bootopt=64S3,32N2,64N2 \
+    androidboot.selinux=permissive
 
 # Kernel (Prebuilt)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
@@ -114,6 +116,8 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6781
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
