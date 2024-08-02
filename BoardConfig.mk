@@ -40,6 +40,9 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := fleur,fleurp,miel,mielp,sea,ocean,ksrn,ksrl,k7sr
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := seur
 TARGET_NO_BOOTLOADER := true

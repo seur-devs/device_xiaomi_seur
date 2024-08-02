@@ -118,6 +118,16 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_DENSITY := 440
 
+# Debugging
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1 \
+    ro.force.debuggable=1
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
