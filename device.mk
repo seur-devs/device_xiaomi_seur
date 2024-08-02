@@ -60,12 +60,14 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
+    libunwindstack.vendor \
     libbluetooth_audio_session \
     libalsautils \
     libnbaio_mono \
     libtinycompress \
     libdynproc \
-    libhapticgenerator
+    libhapticgenerator \
+    libsqlite.vendor
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -84,6 +86,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
     android.hardware.camera.provider@2.6.vendor
 
+PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
+    libpng.vendor
+
 # Cgroup
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
@@ -101,6 +107,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0.vendor \
     libdrm.vendor
+
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -127,6 +136,10 @@ PRODUCT_PACKAGES += \
 # GNSS
 PRODUCT_PACKAGES += \
     android.hardware.gnss-service.mediatek
+
+PRODUCT_PACKAGES += \
+    libcurl.vendor \
+    libexpat.vendor
 
 # Health
 PRODUCT_PACKAGES += \
