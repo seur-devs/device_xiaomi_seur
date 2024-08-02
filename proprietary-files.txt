@@ -180,9 +180,9 @@ vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Camera
 vendor/bin/hw/camerahalserver
-vendor/bin/lib3a.ccu.dm
-vendor/bin/lib3a.ccu.pm
-vendor/bin/lib3a.ccu.ddr
+vendor/bin/lib3a.ccu.dm;NODEPS
+vendor/bin/lib3a.ccu.pm;NODEPS
+vendor/bin/lib3a.ccu.ddr;NODEPS
 vendor/etc/init/camerahalserver.rc
 vendor/firmware/lib3a.ccu
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
@@ -810,7 +810,7 @@ vendor/lib64/libmtkcam_diputils.so
 vendor/lib64/libmtkcam_fwkutils.so
 vendor/lib64/libmtkcam_metadata.so
 vendor/lib64/libmtkcam_pipeline.so
-vendor/lib64/libmtkcam_stdutils.so
+vendor/lib64/libmtkcam_stdutils.so;NOCHECK
 vendor/lib64/libmtkcam_sysutils.so
 vendor/lib64/libmtkcam_metastore.so
 vendor/lib64/libmtkcam_debugutils.so
@@ -968,7 +968,7 @@ vendor/lib/egl/libMEOW_qt.so
 vendor/lib/egl/libMEOW_trace.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
-vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so;NOCHECK
 vendor/lib/hw/vulkan.mali.so
 vendor/lib/mt6781/libdpframework.so:vendor/lib/libdpframework.so
 vendor/lib/mt6781/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
@@ -1026,7 +1026,7 @@ vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/hwcomposer.mt6781.so
-vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so;NOCHECK
 vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/mt6781/libdpframework.so:vendor/lib64/libdpframework.so
 vendor/lib64/mt6781/libmtk_drvb.so:vendor/lib64/libmtk_drvb.so
@@ -1224,7 +1224,7 @@ vendor/lib/VP9SecureVdecCA.so
 vendor/lib/HEVCSecureVdecCA.so
 vendor/lib/libAVCSecureVencCA.so
 vendor/lib/libvcodecdrv.so
-vendor/lib/libvcodec_oal.so
+vendor/lib/libvcodec_oal.so;NOSYMBOLS
 vendor/lib/libvcodec_utility.so
 vendor/lib/libvcodecdrv_header_stub.so
 vendor/lib/libvpu5.so
@@ -1332,7 +1332,7 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
 # Perf
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service;NODEPS
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/lib/libmtkperf_client_vendor.so
@@ -1557,7 +1557,7 @@ vendor/lib64/libimsg_log.so
 vendor/lib64/libteeclientjni.so
 vendor/lib64/libteei_daemon_vfs.so
 vendor/lib64/libteeclientjni@1.1.so
-vendor/lib64/libthha.so
+vendor/lib64/libthha.so;NOSYMBOLS
 vendor/lib64/libthhclient.so
 vendor/lib64/wechat.beanpod.so
 vendor/lib64/vendor.microtrust.hardware.thh@2.0.so
