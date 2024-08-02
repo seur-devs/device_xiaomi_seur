@@ -109,6 +109,9 @@ PRODUCT_PACKAGES += \
     libdrm.vendor
 
 PRODUCT_PACKAGES += \
+    libutils-v32
+
+PRODUCT_PACKAGES += \
     libutilscallstack.vendor
 
 # DRM
