@@ -29,7 +29,6 @@ vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
 vendor/lib/libbwc.so
-vendor/lib/lib_bsscore.so
 vendor/lib/libcvsd_mtk.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libmtklimiter_vendor.so
@@ -210,6 +209,7 @@ vendor/lib64/libalLDC.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libalsautils.so
 vendor/lib64/libbwc.so
+vendor/lib64/lib_bsscore.so
 vendor/lib64/libchromanr.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
