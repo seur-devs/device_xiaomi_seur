@@ -5,11 +5,14 @@ vendor/lib/libaedv.so
 vendor/lib64/libaedv.so
 
 # Audio
+vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
+vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/lib/hw/audio.primary.mt6781.so
 vendor/lib/hw/audio.r_submix.mt6781.so
 vendor/lib/hw/sound_trigger.primary.default.so
+vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
@@ -37,6 +40,8 @@ vendor/lib/libnxp_extamp_intf.so
 vendor/lib/librt_extamp_intf.so
 vendor/lib/libspeech_enh_lib.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
+vendor/lib64/libaudiocompensationfilter_vendor.so
+vendor/lib64/libaudioprimarydevicehalifclient.so
 
 # Audio (Configs)
 vendor/etc/audio_param/AudioParamOptions.xml
@@ -220,6 +225,7 @@ vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libmpbase.so
+vendor/lib64/libchrome.so
 vendor/lib64/libanc_dc_base.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.chdr.so
@@ -1495,6 +1501,7 @@ vendor/lib/libmtkrillog.so
 vendor/lib/librpc.so
 vendor/lib/libverno.so
 vendor/lib/libreference-ril.so
+vendor/lib/libsysenv.so
 vendor/lib/libsimaka.so
 vendor/lib/libsimlock.so
 vendor/lib/libsimmelock.so
