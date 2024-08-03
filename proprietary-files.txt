@@ -188,9 +188,17 @@ vendor/bin/lib3a.ccu.dm;NODEPS
 vendor/bin/lib3a.ccu.pm;NODEPS
 vendor/bin/lib3a.ccu.ddr;NODEPS
 vendor/bin/mt6660_calibration
+vendor/bin/rt5512_calibration
 vendor/bin/cal_tool
 vendor/etc/init/camerahalserver.rc
 vendor/firmware/lib3a.ccu
+vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/libaaa_ltm.so
 vendor/lib64/libaaa_ltmx.so
@@ -938,6 +946,8 @@ vendor/etc/125_Tango.png
 vendor/etc/126_Fantasy.png
 vendor/etc/127_Slumber.png
 vendor/etc/128_Carmen.png
+vendor/etc/qc_Global_3.xml
+vendor/etc/qc_Global_4.xml
 vendor/etc/camera/com.xiaomi.dcal.wd.1.golden
 vendor/etc/camera/com.xiaomi.dcal.wd.2.golden
 vendor/etc/camera/com.xiaomi.dcal.wd.3.golden
@@ -968,6 +978,7 @@ vendor/etc/camera/model/rt_ldc_model/ldc_pre_policy
 vendor/etc/camera/model/rt_model/preview_cache
 vendor/etc/camera/model/rt_model/preview_model
 vendor/etc/camera/model/rt_model/preview_policy
+vendor/etc/default_pd_calibration.bin
 
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
@@ -997,6 +1008,7 @@ vendor/lib/libaal_key.so
 vendor/lib/libaal_mtk.so
 vendor/lib/libaal_cust.so
 vendor/lib/libaalservice.so
+vendor/lib/libappgamepq.so
 vendor/lib/libdre.so
 vendor/lib/libdip_drv.so
 vendor/lib/libdip_imem.so
@@ -1134,6 +1146,7 @@ vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
+vendor/framework/com.fingerprints.extension.jar
 
 # Firmware
 vendor/firmware/aw87xxx_acf.bin
@@ -1464,6 +1477,7 @@ vendor/lib64/libpcap.so
 # Radio
 vendor/bin/ccci_rpcd
 vendor/bin/ccci_mdinit
+vendor/bin/vsimd
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/etc/init/gsm0710muxd.rc
@@ -1476,6 +1490,9 @@ vendor/lib/libmtkproperty.so
 vendor/lib/libmtkrillog.so
 vendor/lib/librpc.so
 vendor/lib/libverno.so
+vendor/lib/libsimaka.so
+vendor/lib/libsimlock.so
+vendor/lib/libsimmelock.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so
@@ -1494,12 +1511,17 @@ vendor/lib64/libmtkrillog.so
 vendor/lib64/libmtkrilutils.so
 vendor/lib64/libmtksysutils.so
 vendor/lib64/libmtktinyxml.so
+vendor/lib64/libmtk-fusion-ril-prop-vsim.so
+vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libmtkutils.so
 vendor/lib64/libratconfig.so
 vendor/lib64/librilfusion.so
 vendor/lib64/librpc.so
 vendor/lib64/libstorage_otp.so
 vendor/lib64/libsysenv.so
+vendor/lib64/libsimaka.so
+vendor/lib64/libsimlock.so
+vendor/lib64/libsimmelock.so
 vendor/lib64/libtrm.so
 vendor/lib64/libverno.so
 vendor/lib64/libviamipc-ril.so
@@ -1546,6 +1568,7 @@ vendor/etc/init/init.volte_imcb.rc
 vendor/etc/init/init.volte_stack.rc
 vendor/etc/init/init.volte_imsm_93.rc
 vendor/etc/init/init.volte_md_status.rc
+vendor/etc/smsdbvisitor.xml
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/libvsim.so
 vendor/lib/libipsec_ims_shr.so
@@ -1605,6 +1628,7 @@ vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 
 # Sensors
+vendor/bin/sensors_test
 vendor/etc/elliptic_sensor.xml
 vendor/etc/sensors/hals.conf
 vendor/lib64/hw/sensors.mt6781.so
@@ -1734,3 +1758,4 @@ vendor/lib64/libforkexecwrap.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
+vendor/lib64/libwpa_client.so

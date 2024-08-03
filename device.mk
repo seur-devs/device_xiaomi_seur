@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.soundtrigger@2.3-impl \
-    android.hardware.audio.service.mediatek
+    android.hardware.audio.service
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -141,7 +141,7 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
+    libvendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
     vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
     com.fingerprints.extension@1.0.vendor
 
@@ -198,6 +198,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libkeymaster4_1support.vendor \
     libkeymaster41.vendor \
+    libkeymaster_messages.vendor \
+    libkeymaster_portable.vendor \
     libpuresoftkeymasterdevice.vendor \
     libsoft_attestation_cert.vendor \
     android.hardware.keymaster@4.1.vendor \
@@ -365,7 +367,8 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
     android.hardware.sensors@2.1.vendor \
     android.frameworks.sensorservice@1.0.vendor \
-    android.hardware.sensors@2.1-service.multihal
+    android.hardware.sensors@2.0-ScopedWakelock.vendor
+    android.hardware.sensors@2.1-service.xiaomi-multihal
 
 PRODUCT_PACKAGES += \
     libshim_sensors
