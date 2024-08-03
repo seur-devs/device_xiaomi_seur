@@ -49,18 +49,19 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio.service.mediatek \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
+    android.hardware.audio.sounddose-vendor-impl \
+    android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.3-impl \
-    android.hardware.audio.service
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.primary.default \
     audio.r_submix.default \
     audio.usb.default \
-    audio_policy.stub \
-    android.hardware.bluetooth.audio@2.1-impl
+    audio_policy.stub
 
 PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
