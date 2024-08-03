@@ -340,7 +340,6 @@ PRODUCT_PACKAGES += \
 
 # Root Dir
 PRODUCT_PACKAGES += \
-    init.aee.rc \
     init.ago.rc \
     init.cgroup.rc \
     init.connectivity.common.rc \
