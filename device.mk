@@ -335,9 +335,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio@1.6.vendor
-    
-PRODUCT_PACKAGES += \
-    libruy.vendor
 
 # Recovery
 PRODUCT_PACKAGES += \
