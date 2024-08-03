@@ -204,6 +204,7 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/libaaa_ltm.so
 vendor/lib64/libaaa_ltmx.so
+vendor/lib64/libakm.so
 vendor/lib64/libalCFR.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libalhLDC.so
@@ -218,6 +219,7 @@ vendor/lib64/libispcameraca.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
+vendor/lib64/libmpbase.so
 vendor/lib64/libanc_dc_base.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.chdr.so
@@ -1492,6 +1494,7 @@ vendor/lib/libmtkproperty.so
 vendor/lib/libmtkrillog.so
 vendor/lib/librpc.so
 vendor/lib/libverno.so
+vendor/lib/libreference-ril.so
 vendor/lib/libsimaka.so
 vendor/lib/libsimlock.so
 vendor/lib/libsimmelock.so
@@ -1501,6 +1504,7 @@ vendor/lib64/libccci_util.so
 vendor/lib64/libmipc.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmtk-ril.so
+vendor/lib64/libmtkmipc-ril.so
 vendor/lib64/libmtkares.so
 vendor/lib64/libmtkconfig.so
 vendor/lib64/libmtkconfigutils.so
@@ -1518,6 +1522,7 @@ vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libmtkutils.so
 vendor/lib64/libratconfig.so
 vendor/lib64/librilfusion.so
+vendor/lib64/libreference-ril.so
 vendor/lib64/librpc.so
 vendor/lib64/libstorage_otp.so
 vendor/lib64/libsysenv.so
@@ -1577,6 +1582,7 @@ vendor/lib/libipsec_ims_shr.so
 vendor/lib/libvt_custom.so
 vendor/lib/libvolte_core_shr.so
 vendor/lib/libvolte_xdmc_shr.so
+vendor/lib/librcs_volte_core.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
