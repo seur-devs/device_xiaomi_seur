@@ -1,16 +1,23 @@
 # Audio
 aaudio.mmap_policy=2
 aaudio.mmap_exclusive_policy=2
+ro.vendor.audio.sos=true
+ro.vendor.audio.voice.change.support=true
 vendor.audio.powerhal.power.dl=true
+ro.vendor.audio.soundfx.usb=true
+ro.vendor.audio.scenario.support=true
+ro.vendor.audio.sfx.earadj=true
+ro.vendor.audio.sfx.scenario=flase
 ro.vendor.audio.surround.support=true
 ro.vendor.audio.spk.stereo=true
 ro.vendor.audio.vocal.support=true
 ro.vendor.audio.voice.volume.boost=manual
 ro.vendor.audio.us.proximity=true
-ro.vendor.audio.scenario.support=true
-ro.vendor.audio.sfx.earadj=true
-ro.vendor.audio.sfx.scenario=flase
-ro.vendor.audio.sos=true
+ro.vendor.mtk_audio_alac_support=1
+ro.vendor.mtk_hifiaudio_support=1
+ro.vendor.mtk_audio_tuning_tool_ver=V2.2
+ro.vendor.mtk_audio_ape_support=1
+ro.audio.monitorRotation=true
 ro.config.vc_call_vol_deault=6
 ro.config.vc_call_vol_steps=10
 
