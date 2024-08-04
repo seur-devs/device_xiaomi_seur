@@ -1856,10 +1856,6 @@ vendor/etc/ipsec/ssl/openssl.cnf
 vendor/etc/ipsec/strongswan.conf
 vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.xiaomi.xml
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
-vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
-vendor/etc/vintf/manifest/manifest_thh.xml
 vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml
 vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
 vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
@@ -2768,9 +2764,6 @@ vendor/lib/libvorbisidec.so
 vendor/lib/libwapi.so
 vendor/lib/libwo.so
 vendor/lib/libwpa_client.so
-vendor/lib/mediacas/libclearkeycasplugin.so
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
-vendor/lib/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib/meta_wifi_data.so
 vendor/lib/nfc_nci.st21nfc.st.so
 vendor/lib/ov64b40_main_aac_mipi_raw_IdxMgr.so
