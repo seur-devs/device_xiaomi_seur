@@ -1749,13 +1749,10 @@ vendor/bin/factory
 vendor/bin/getgameserver
 vendor/bin/init.insmod.sh
 vendor/bin/ipsec_mon
-vendor/bin/iwlist
-vendor/bin/iwpriv
 vendor/bin/jpegtool
 vendor/bin/lbs_hidl_service
 vendor/bin/md_monitor
 vendor/bin/md_monitor_ctrl
-vendor/bin/meta_tst
 vendor/bin/MI_IC
 vendor/bin/MI_RIC
 vendor/bin/mlipayd@1.1
@@ -1770,8 +1767,6 @@ vendor/bin/SoterProvisioningTool
 vendor/bin/starter
 vendor/bin/stfactorydemo-vendor
 vendor/bin/STFlashTool
-vendor/bin/stp_dump3
-vendor/bin/stroke
 vendor/bin/testgameserver
 vendor/bin/test_sar_nusensor
 vendor/bin/tidad@1.1
@@ -1916,7 +1911,6 @@ vendor/lib64/libnbaio_mono.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libscltm.so
-vendor/lib64/libsfplugin_ccodec_utils.so
 vendor/lib64/libshmemcompat.so
 vendor/lib64/libshmemutil.so
 vendor/lib64/libsoft_attestation_cert.so
@@ -2552,8 +2546,6 @@ vendor/lib/libispcameraca.so
 vendor/lib/libjpeg-alpha-oal_vendor.so
 vendor/lib/libjpeg-alpha_vendor.so
 vendor/lib/libJpgEncPipe.so
-vendor/lib/libkeystore-wifi-hidl.so
-vendor/lib/liblogwrap_vendor.so
 vendor/lib/libmisoundcrossfade.so
 vendor/lib/libmisound.so
 vendor/lib/libmlipay@1.1.so
