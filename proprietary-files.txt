@@ -45,8 +45,6 @@ vendor/lib/libnxp_extamp_intf.so
 vendor/lib/librt_extamp_intf.so
 vendor/lib/libspeech_enh_lib.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
-vendor/lib64/libaudiocompensationfilter_vendor.so
-vendor/lib64/libaudioprimarydevicehalifclient.so
 
 # Audio (Configs)
 vendor/etc/audio_param/AudioParamOptions.xml
