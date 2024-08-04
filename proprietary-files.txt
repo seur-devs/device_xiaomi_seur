@@ -1258,6 +1258,7 @@ vendor/lib64/hw/gatekeeper.beanpod.so
 vendor/bin/mnld
 vendor/bin/mtk_agpsd
 vendor/etc/init/mtk_agpsd_p.rc
+vendor/lib/libviagpsrpc.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/libviagpsrpc.so
 vendor/lib64/libDR.so
@@ -1472,11 +1473,13 @@ vendor/bin/ccci_rpcd
 vendor/bin/ccci_mdinit
 vendor/bin/ipsec_mon
 vendor/bin/vsimd
+vendor/bin/wfca
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/init.cccimdinit.rc
+vendor/etc/init/init.wfca.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
@@ -1485,6 +1488,7 @@ vendor/lib/libcarrierconfig.so
 vendor/lib/libhydra.so
 vendor/lib/libmtkcutils.so
 vendor/lib/libmtkproperty.so
+vendor/lib/libmtkares.so
 vendor/lib/libmtkrillog.so
 vendor/lib/libmmprofile.so
 vendor/lib/librpc.so
@@ -1496,6 +1500,7 @@ vendor/lib/libstrongswan.so
 vendor/lib/libsimaka.so
 vendor/lib/libsimlock.so
 vendor/lib/libsimmelock.so
+vendor/lib/libfsmsmartpaparse.so
 vendor/lib/libscltm.so
 vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 vendor/lib64/libcares_naptr.so
@@ -1532,6 +1537,8 @@ vendor/lib64/libsysenv.so
 vendor/lib64/libsimaka.so
 vendor/lib64/libsimlock.so
 vendor/lib64/libsimmelock.so
+vendor/lib64/libshmemcompat.so
+vendor/lib64/libshmemutil.so
 vendor/lib64/libtrm.so
 vendor/lib64/libverno.so
 vendor/lib64/libviamipc-ril.so
@@ -1557,6 +1564,8 @@ vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
+vendor/etc/gbe.cfg
+vendor/etc/xgf.cfg
 vendor/etc/smartpa_param/fsmsdg_params.bin
 vendor/etc/apdb/APDB_MT6785_S01__W2248
 vendor/etc/apdb/APDB_MT6785_S01__W2248_ENUM
@@ -1595,6 +1604,8 @@ vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libvsim.so
 vendor/lib64/libhydra.so
+vendor/lib64/libssl-md.so
+vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libcurl-md.so
 vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
@@ -1775,6 +1786,9 @@ vendor/firmware/WIFI_RAM_CODE_soc2_2_2_1.bin
 vendor/firmware/WIFI_RAM_CODE_soc2_2_2a_1.bin
 vendor/firmware/soc2_2_ram_wifi_2_1_hdr.bin
 vendor/firmware/soc2_2_ram_wifi_2a_1_hdr.bin
+vendor/lib/libwo.so
+vendor/lib/libwpa_client.so
+vendor/lib64/libwpfa.so
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
