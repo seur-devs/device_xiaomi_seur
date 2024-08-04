@@ -341,7 +341,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.3.vendor:64
 
 PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.mtkpower@1.0.vendor:64 \
+    vendor.mediatek.hardware.mtkpower@1.0.vendor \
     vendor.mediatek.hardware.mtkpower@1.1.vendor:64 \
     vendor.mediatek.hardware.mtkpower@1.2.vendor:64
 
