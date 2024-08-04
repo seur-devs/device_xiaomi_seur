@@ -65,6 +65,7 @@ vendor.camera.mdp.cz.enable=1
 vendor.mtk.camera.app.fd.video=1
 ro.vendor.camera.directfdyuv.support=1
 ro.vendor.camera.isp.support.colorspace=0
+ro.vendor.camera.aishutter.support=1
 
 # Display
 debug.sf.disable_backpressure=1
