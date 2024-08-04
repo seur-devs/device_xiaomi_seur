@@ -140,7 +140,7 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # VNDK
-BOARD_VNDK_VERSION := current
+BOARD_VNDK_VERSION := 33
 
 # Android Verified Boot (AVB)
 BOARD_AVB_ENABLE := true
