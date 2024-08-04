@@ -88,6 +88,7 @@ BOARD_KERNEL_CMDLINE := \
 
 # Kernel (Prebuilt)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(DEVICE_PATH)-modules/*.ko)
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
