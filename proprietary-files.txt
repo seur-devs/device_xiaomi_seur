@@ -1386,29 +1386,13 @@ vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml
 vendor/etc/armnn_app.config
 vendor/lib/libOpenCL.so
-vendor/lib/libapu_mdw.so
-vendor/lib/libapusys_edma.so
-vendor/lib/libapusys.so
-vendor/lib/libarmnn_ndk.mtk.vndk.so
-vendor/lib/libarmnn.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
 vendor/lib/libasn1c_mdmi.so
 vendor/lib/libcmdl_ndk.mtk.vndk.so
 vendor/lib/libcmdl.so
-vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so
-vendor/lib/libnwk_opt_halwrap_vendor.so
-vendor/lib/libneuroeara.so
-vendor/lib/libneuropilot_hal_utils.so
 vendor/lib/libmvpu_config_data.so
 vendor/lib64/APUWareUtilsServer.so
-system_ext/lib64/libapuwarehmp.mtk.so
-system_ext/lib64/libapuwarexrp.mtk.so
-system_ext/lib64/libapuwareutils.mtk.so
-system_ext/lib64/libapuwareapusys.mtk.so
-system_ext/lib64/libapuwarexrp_v2.mtk.so
-system_ext/lib64/libapuwareutils_v2.mtk.so
-system_ext/lib64/libapuwareapusys_v2.mtk.so
 vendor/lib64/libapusys.so
 vendor/lib64/libapu_mdw.so
 vendor/lib64/libapusys_edma.so
@@ -1429,16 +1413,6 @@ vendor/lib64/nwk_opt_imp.so
 vendor/lib64/libmt.so
 vendor/lib64/libmvpu_config_data.so
 vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.utils-V1-ndk.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.apusys-V2-ndk.so
 
 # NFC
 vendor/firmware/st21nfc_fw7.bin
@@ -1467,11 +1441,6 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 -vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service;NODEPS
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
-vendor/lib/libmtkperf_client_vendor.so
-vendor/lib/libpowerhal.so
-vendor/lib/libpowerhalwrap_vendor.so
-vendor/lib/libpower_timer.so
-vendor/lib/libperfctl_vendor.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib64/libmtkperf_client_vendor.so
 vendor/lib64/libperfctl_vendor.so
@@ -1479,10 +1448,6 @@ vendor/lib64/libpowerhal.so
 vendor/lib64/libpower_timer.so
 vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
-
-# PCap
-vendor/lib/libpcap.so
-vendor/lib64/libpcap.so
 
 # Radio
 vendor/bin/ccci_rpcd
@@ -1501,10 +1466,6 @@ vendor/lib/libmtkrillog.so
 vendor/lib/librpc.so
 vendor/lib/libverno.so
 vendor/lib/libreference-ril.so
-vendor/lib/libsysenv.so
-vendor/lib/libsimaka.so
-vendor/lib/libsimlock.so
-vendor/lib/libsimmelock.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so
@@ -1636,7 +1597,7 @@ system_ext/lib64/libvsim-adaptor-client.so
 system_ext/lib64/libvt_avsync.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-system_ext/priv-app/ImsService/ImsService.apk
+-system_ext/priv-app/ImsService/ImsService.apk
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
@@ -1667,8 +1628,6 @@ vendor/etc/init/init.thermal.rc
 vendor/etc/init/init.thermal_manager.rc
 vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/init/init.mi_thermald.rc
-vendor/lib/hw/android.hardware.thermal@2.0-impl.so
-vendor/lib/hw/thermal.mt6781.so
 vendor/lib/libmtcloader.so
 vendor/lib/libthermalalgo.so
 vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
@@ -1705,7 +1664,6 @@ vendor/etc/init/microtrust.rc
 vendor/etc/init/microtrust.init_thh.rc
 vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc
 -vendor/etc/vintf/manifest/manifest_thh.xml
-vendor/lib/wechat.beanpod.so
 vendor/lib/libdecrypt.so
 vendor/lib/libmtk_bsg.so
 vendor/lib/libTEECommon.so

@@ -51,6 +51,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio.service.mediatek \
     android.hardware.audio@7.0-impl \
+    android.hardware.audio@6.0.vendor \
+    android.hardware.audio@7.0-util.vendor \
+    android.hardware.audio.common@5.0.vendor \
+    android.hardware.audio.common@6.0.vendor \
+    android.hardware.audio.common@6.0-util.vendor \
+    android.hardware.audio.common@7.0.vendor \
+    android.hardware.audio.common@7.0-enums.vendor \
+    android.hardware.audio.common@7.0-util.vendor \
+    android.hardware.audio.common-util.vendor \
+    android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.3-impl \
@@ -86,12 +96,16 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.6.vendor
+    android.hardware.camera.device@3.6.vendor:64 \
+    android.hardware.camera.provider@2.6.vendor:64
 
 PRODUCT_PACKAGES += \
     libcamera_metadata.vendor \
     libpng.vendor
+
+# CAS
+PRODUCT_PACKAGES += \
+    android.hardware.cas@1.2-service-lazy
 
 # Cgroup
 PRODUCT_COPY_FILES += \
@@ -135,7 +149,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.4.vendor
+    android.hardware.drm@1.4.vendor:64
 
 # FastbootD
 PRODUCT_PACKAGES += \
@@ -151,7 +165,7 @@ PRODUCT_PACKAGES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-impl:64 \
     android.hardware.gatekeeper@1.0-service
 
 # GNSS
@@ -200,13 +214,15 @@ PRODUCT_PACKAGES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    libkeymaster4_1support.vendor \
-    libkeymaster41.vendor \
-    libkeymaster_messages.vendor \
-    libkeymaster_portable.vendor \
-    libpuresoftkeymasterdevice.vendor \
-    libsoft_attestation_cert.vendor \
-    android.hardware.keymaster@4.1.vendor \
+    libkeymaster4_1support.vendor:64 \
+    libkeymaster41.vendor:64 \
+    libkeymaster_messages.vendor:64 \
+    libkeymaster_portable.vendor:64 \
+    libpuresoftkeymasterdevice.vendor:64 \
+    libsoft_attestation_cert.vendor:64 \
+    android.hardware.keymaster@4.1.vendor:64
+    
+PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.km41.xml
 
 # Lights
@@ -215,12 +231,17 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.2.vendor
+    android.hardware.media.c2@1.2.vendor \
+    android.hardware.media.omx@1.0-service
 
 PRODUCT_PACKAGES += \
+    libcodec2_hidl@1.0.vendor \
     libcodec2_hidl@1.1.vendor \
     libcodec2_hidl@1.2.vendor \
+    libeffects \
+    libeffectsconfig.vendor \
     libavservices_minijail_vendor \
+    libstagefright_foundation.vendor \
     libstagefright_softomx_plugin.vendor \
     libsfplugin_ccodec_utils.vendor \
     libcodec2_soft_common.vendor
@@ -240,7 +261,7 @@ PRODUCT_COPY_FILES += \
 
 # Neural Networks
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.3.vendor \
+    android.hardware.neuralnetworks@1.3.vendor:64 \
     libtextclassifier_hash.vendor
 
 # NFC
@@ -267,6 +288,10 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# PCap
+PRODUCT_PACKAGES += \
+    libpcap.vendor
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -313,12 +338,12 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek
 
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3.vendor
+    android.hardware.power@1.3.vendor:64
 
 PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.mtkpower@1.0.vendor \
-    vendor.mediatek.hardware.mtkpower@1.1.vendor \
-    vendor.mediatek.hardware.mtkpower@1.2.vendor
+    vendor.mediatek.hardware.mtkpower@1.0.vendor:64 \
+    vendor.mediatek.hardware.mtkpower@1.1.vendor:64 \
+    vendor.mediatek.hardware.mtkpower@1.2.vendor:64
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -333,8 +358,11 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.radio.config@1.3.vendor \
-    android.hardware.radio@1.6.vendor
+    android.hardware.radio.config@1.3.vendor:64 \
+    android.hardware.radio@1.6.vendor:64
+    
+PRODUCT_PACKAGES += \
+    libruy.vendor
 
 # Recovery
 PRODUCT_PACKAGES += \
@@ -368,10 +396,10 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge \
-    android.hardware.sensors@1.0.vendor \
-    android.hardware.sensors@2.1.vendor \
-    android.frameworks.sensorservice@1.0.vendor \
-    android.hardware.sensors@2.0-ScopedWakelock.vendor \
+    android.hardware.sensors@1.0.vendor:64 \
+    android.hardware.sensors@2.1.vendor:64 \
+    android.frameworks.sensorservice@1.0.vendor:64 \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor:64 \
     android.hardware.sensors-service.multihal
 
 PRODUCT_PACKAGES += \
@@ -388,23 +416,18 @@ PRODUCT_SOONG_NAMESPACES := \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@1.0-impl
+    android.hardware.thermal@1.0-impl:64
 
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0.vendor
+    android.hardware.thermal@2.0.vendor:64
 
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-mediatekv2
 
 # Vibrator
-$(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
-
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+    android.hardware.vibrator-service.mediatek
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
