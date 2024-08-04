@@ -98,6 +98,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_metadata.vendor \
     libpng.vendor
+    
+PRODUCT_PACKAGES += \
+    libcamera_metadata_shim
 
 # CAS
 PRODUCT_PACKAGES += \
