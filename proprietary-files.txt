@@ -192,6 +192,8 @@ vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Camera
+system_ext/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
 vendor/bin/hw/camerahalserver
 vendor/bin/lib3a.ccu.dm;NODEPS
 vendor/bin/lib3a.ccu.pm;NODEPS
