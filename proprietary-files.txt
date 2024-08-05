@@ -230,6 +230,7 @@ vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libmpbase.so
+vendor/lib64/libmfllcore.so
 vendor/lib64/libchrome.so
 vendor/lib64/libanc_dc_base.so
 vendor/lib64/libc++_shared.so
