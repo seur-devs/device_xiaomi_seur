@@ -1398,6 +1398,7 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 
 # Modules (Init)
+vendor/bin/init.insmod.sh
 vendor/etc/init/init.bt_drv.rc
 vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.wmt_drv.rc
