@@ -1121,3 +1121,6 @@ on property:ro.vendor.mtk_data_config=*
     setprop persist.vendor.radio.smart.data.switch ${ro.vendor.mtk_data_config}
 # Multisim setprop end
 
+# SchedStune
+on property:sys.boot_completed=1
+    write /dev/stune/top-app/schedtune.boost 1
