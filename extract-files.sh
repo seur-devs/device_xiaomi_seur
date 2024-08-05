@@ -82,6 +82,7 @@ function blob_fixup {
             "${PATCHELF}" --add-needed "libcamera_metadata_shim.so" "${2}"
             ;;
         vendor/bin/hw/camerahalserver)
+            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             "${PATCHELF}" --replace-needed "libbinder.so" "libbinder-v32.so" "${2}"
             ;;
