@@ -97,6 +97,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcamera_metadata.vendor \
+    libexif.vendor \
     libpng.vendor \
     libcamera2ndk_vendor
 
