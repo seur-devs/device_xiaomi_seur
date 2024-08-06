@@ -1102,10 +1102,6 @@ on property:vendor.mtk.md1.status=reset
 on property:persist.ro.ril.oem.btmac=*
     setprop ro.ril.oem.btmac ${persist.ro.ril.oem.btmac}
 
-# FPSGO FBT Game
-on boot
-    insmod /vendor/lib/modules/fpsgo.ko
-
 # VSIM service (vendor OSI)
 service osi /system/bin/osi
     class main
@@ -1124,3 +1120,8 @@ on property:ro.vendor.mtk_data_config=*
 # SchedStune
 on property:sys.boot_completed=1
     write /dev/stune/top-app/schedtune.boost 1
+    
+# Modules
+on post-fs-data
+    insmod /vendor/lib/modules/*.ko
+    exec - root -- /vendor/bin/init.insmod.sh
