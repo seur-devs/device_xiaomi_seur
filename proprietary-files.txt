@@ -1141,15 +1141,6 @@ vendor/etc/dsi_panel_k7sr_38_0c_0b_video_mi.xml
 vendor/etc/screen_light.xml
 vendor/etc/VideoLog_dynamic.xml
 
-# DOEAPP
-vendor/etc/init/dmc_core.rc
-vendor/bin/dconfig
-vendor/bin/dexecutor
-vendor/bin/dmabuf_dump
-vendor/bin/dmc_core
-vendor/bin/doeapp-memtester
-vendor/bin/doeapp-sat
-
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
