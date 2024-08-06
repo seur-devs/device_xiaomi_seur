@@ -198,6 +198,7 @@ vendor/bin/hw/camerahalserver
 vendor/bin/lib3a.ccu.dm;NODEPS
 vendor/bin/lib3a.ccu.pm;NODEPS
 vendor/bin/lib3a.ccu.ddr;NODEPS
+vendor/lib64/libeffecthal.base.so
 vendor/bin/mt6660_calibration
 vendor/bin/rt5512_calibration
 vendor/bin/cal_tool
@@ -898,6 +899,7 @@ vendor/lib64/libmtkcam_pipelinemodel_session.so
 vendor/lib64/libmtkcam.featurepipe.vsdof_util.so
 vendor/lib64/libmtkcam_pipelinepolicy_factory.so
 vendor/lib64/libmtkcam_pipelinepolicy-security.so
+vendor/lib64/libmsnr.so
 vendor/lib64/libmipc.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgoengine.so
