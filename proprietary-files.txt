@@ -226,6 +226,7 @@ vendor/lib64/libOpenCL.so
 vendor/lib64/libimgsensorca.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libispcameraca.so
+vendor/lib64/liblpcnr.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
@@ -1467,6 +1468,7 @@ vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpowerhal.so
 vendor/lib64/libpower_timer.so
 vendor/lib64/libpowerhalwrap_vendor.so
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
 # Radio
