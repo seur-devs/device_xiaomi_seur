@@ -11,15 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/seur/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-PRODUCT_NAME := lineage_seur
+PRODUCT_NAME := aosp_seur
 PRODUCT_DEVICE := seur
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

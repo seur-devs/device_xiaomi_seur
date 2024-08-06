@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_seur.mk
+    $(LOCAL_DIR)/aosp_seur.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_seur-user \
-    lineage_seur-userdebug \
-    lineage_seur-eng
+    aosp_seur-user \
+    aosp_seur-userdebug \
+    aosp_seur-eng
