@@ -119,6 +119,7 @@ BOARD_VENDOR := xiaomi
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-ext.cpp
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6781
