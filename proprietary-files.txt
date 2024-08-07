@@ -1,4 +1,4 @@
-# Unpinned blobs from sea-user 12 SP1A.210812.016 V816.0.7.0.UHZMIXM release-keys
+# Unpinned blobs from sea-user 12 SP1A.210812.016 V816.0.8.0.UHZMIXM release-keys
 
 # AEE
 vendor/lib/libaedv.so

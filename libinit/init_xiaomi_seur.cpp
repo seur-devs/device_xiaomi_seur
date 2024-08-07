@@ -18,7 +18,7 @@ static const variant_info_t sea_info = {
     .device = "sea",
     .marketname = "Redmi Note 12S",
     .model = "23030RAC7Y",
-    .build_fingerprint = "Redmi/sea_global/sea:13/SP1A.210812.016/V816.0.7.0.UHZMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/sea_global/sea:13/SP1A.210812.016/V816.0.8.0.UHZMIXM:user/release-keys",
 };
 
 static const variant_info_t ocean_info = {
@@ -29,7 +29,7 @@ static const variant_info_t ocean_info = {
     .device = "ocean",
     .marketname = "Redmi Note 12S",
     .model = "2303CRA44A",
-    .build_fingerprint = "Redmi/ocean_global/ocean:13/SP1A.210812.016/V816.0.7.0.UHZMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/ocean_global/ocean:13/SP1A.210812.016/V816.0.8.0.UHZMIXM:user/release-keys",
 };
 
 static const variant_info_t ocean_la_info = {
@@ -40,7 +40,7 @@ static const variant_info_t ocean_la_info = {
     .device = "ocean",
     .marketname = "Redmi Note 12S",
     .model = "2303ERA42L",
-    .build_fingerprint = "Redmi/ocean_global/ocean:13/SP1A.210812.016/V816.0.7.0.UHZMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/ocean_global/ocean:13/SP1A.210812.016/V816.0.8.0.UHZMIXM:user/release-keys",
 };
 
 static const variant_info_t fleur_info = {
