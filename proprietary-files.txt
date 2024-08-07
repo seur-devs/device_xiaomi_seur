@@ -1000,6 +1000,9 @@ vendor/etc/camera/model/rt_model/preview_model
 vendor/etc/camera/model/rt_model/preview_policy
 vendor/etc/default_pd_calibration.bin
 
+# ConsumerIR
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.mt6781.so
+
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service

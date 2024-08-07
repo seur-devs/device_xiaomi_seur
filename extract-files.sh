@@ -64,6 +64,9 @@ function blob_fixup {
         vendor/lib64/libwifi-hal-mtk.so)
             "$PATCHELF" --set-soname libwifi-hal-mtk.so "${2}"
             ;;
+        vendor/lib64/hw/consumerir.mt6781.so)
+            "$PATCHELF" --set-soname consumerir.mt6781.so "${2}"
+            ;;
         vendor/bin/mnld|\
         vendor/lib*/hw/android.hardware.sensors@2.X-subhal-mediatek.so|\
         vendor/lib*/libcam.utils.sensorprovider.so|\
