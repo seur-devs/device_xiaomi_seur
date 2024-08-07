@@ -49,7 +49,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.service \
+    android.hardware.audio.service.mediatek \
     android.hardware.audio@7.0-impl \
     android.hardware.audio@6.0.vendor \
     android.hardware.audio@7.0-util.vendor \
