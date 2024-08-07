@@ -71,7 +71,7 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     audio_policy.stub
-    
+
 PRODUCT_PACKAGES += \
     MtkInCallService
 
@@ -88,7 +88,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
-    
+
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration_7_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
@@ -108,7 +108,7 @@ PRODUCT_PACKAGES += \
     libcamera_metadata.vendor \
     libexif.vendor \
     libpng.vendor \
-    libcamera2ndk_vendor
+    libpng.vendor
 
 PRODUCT_PACKAGES += \
     libcamera_metadata_shim \
@@ -233,7 +233,7 @@ PRODUCT_PACKAGES += \
     libpuresoftkeymasterdevice.vendor:64 \
     libsoft_attestation_cert.vendor:64 \
     android.hardware.keymaster@4.1.vendor:64
-    
+
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.km41.xml
 
@@ -283,7 +283,7 @@ PRODUCT_PACKAGES += \
     NfcNci \
     SecureElement \
     Tag
-    
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_ksrn/android.hardware.nfc.hcef.xml \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_ksrn/android.hardware.nfc.hce.xml \
@@ -397,7 +397,7 @@ include $(LOCAL_PATH)/vendor_logtag.mk
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor:64 \
     android.hardware.radio@1.6.vendor:64
-    
+
 PRODUCT_PACKAGES += \
     libruy.vendor
 
