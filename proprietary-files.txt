@@ -1675,13 +1675,6 @@ vendor/lib64/libsensor_custom.so
 vendor/lib64/librgbwlightsensor.so
 vendor/lib64/sensors.touch.detect.so
 
-# Soter
-vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
-vendor/bin/SoterProvisioningTool
-vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
-vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
-vendor/app/SoterService/SoterService.apk
-
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
 vendor/bin/thermal
