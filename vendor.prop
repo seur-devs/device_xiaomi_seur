@@ -66,6 +66,9 @@ vendor.mtk.camera.app.fd.video=1
 ro.vendor.camera.directfdyuv.support=1
 ro.vendor.camera.isp.support.colorspace=0
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 ro.vendor.mtk_pq_support=2
 ro.vendor.mtk_pq_color_mode=1
