@@ -41,7 +41,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := fleur,fleurp,miel,mielp,sea,ocean,ksrn,ksrl,k7sr
+TARGET_OTA_ASSERT_DEVICE := fleur,fleurp,miel,mielp,sea,ocean,ksrn,ksrl,k7sr,seur
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := seur
