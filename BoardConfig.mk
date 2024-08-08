@@ -122,8 +122,8 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-ext.cpp
 
 # Props
-TARGET_VENDOR_PROP += $(CONFIGS_PATH)/props/vendor.prop
-TARGET_SYSTEM_PROP += $(CONFIGS_PATH)/props/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6781

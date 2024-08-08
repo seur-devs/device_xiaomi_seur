@@ -51,19 +51,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio.service.mediatek \
     android.hardware.audio@7.0-impl \
-    android.hardware.audio@6.0.vendor \
-    android.hardware.audio@7.0-util.vendor \
-    android.hardware.audio.common@5.0.vendor \
-    android.hardware.audio.common@6.0.vendor \
-    android.hardware.audio.common@6.0-util.vendor \
-    android.hardware.audio.common@7.0.vendor \
-    android.hardware.audio.common@7.0-enums.vendor \
-    android.hardware.audio.common@7.0-util.vendor \
-    android.hardware.audio.common-util.vendor \
-    android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.bluetooth.audio-impl \
-    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.soundtrigger@2.3-impl
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -170,10 +160,14 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
-    libvendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
-    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
-    com.fingerprints.extension@1.0.vendor
+    android.hardware.biometrics.fingerprint@2.1.vendor:64 \
+    libvendor.goodix.hardware.biometrics.fingerprint@2.1.vendor:64 \
+    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor:64 \
+    com.fingerprints.extension@1.0.vendor:64
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
+    $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -185,8 +179,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-service.mediatek
 
 PRODUCT_PACKAGES += \
-    libcurl.vendor \
-    libexpat.vendor
+    libcurl.vendor:64 \
+    libexpat.vendor:64
 
 # Health
 PRODUCT_PACKAGES += \
@@ -399,7 +393,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.6.vendor:64
 
 PRODUCT_PACKAGES += \
-    libruy.vendor
+    libruy.vendor:64
 
 # Recovery
 PRODUCT_PACKAGES += \
@@ -468,12 +462,10 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    libkeystore-wifi-hidl \
-    libkeystore-engine-wifi-hidl \
     wpa_supplicant \
     hostapd \
     libwifi-hal-wrapper \
-    android.hardware.wifi-service-lazy
+    android.hardware.wifi@1.0-service-lazy
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
