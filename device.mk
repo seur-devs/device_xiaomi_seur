@@ -469,9 +469,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     wpa_supplicant \
     hostapd \
-    android.hardware.wifi@1.5.vendor \
-    android.hardware.wifi.supplicant@1.4.vendor \
-    android.hardware.wifi.hostapd@1.3.vendor
+    libwifi-hal-wrapper \
+    android.hardware.wifi-service
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
