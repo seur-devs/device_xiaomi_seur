@@ -6,4 +6,12 @@ SPDX-License-Identifier: Apache-2.0
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Enable auxiliary cameras selector -->
     <bool name="config_enableAuxCameras">true</bool>
+
+    <!-- List of ID of auxiliary cameras that must be ignored by the app. -->
+    <string-array name="config_ignoredAuxCameraIds">
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+	<item>7</item>
+    </string-array>
 </resources>
