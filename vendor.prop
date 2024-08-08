@@ -238,6 +238,7 @@ ro.vendor.mtk_ufs_support=1
 
 # Surface Flinger
 debug.sf.enable_gl_backpressure=0
+debug.sf.disable_gl_backpressure=1
 debug.sf.enable_hwc_vds=0
 debug.sf.treat_170m_as_sRGB=1
 debug.sf.disable_client_composition_cache=1
