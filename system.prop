@@ -35,3 +35,8 @@ wifi.interface=wlan0
 wifi.tethering.interface=ap0
 ro.mediatek.wlan.p2p=1
 ro.mediatek.wlan.wsc=1
+
+# ZRAM
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
