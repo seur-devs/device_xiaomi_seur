@@ -240,9 +240,4 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IVideoTelephony/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.microtrust.hardware.soter</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::ISoter/default</fqname>
-    </hal>
 </manifest>
