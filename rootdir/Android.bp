@@ -89,6 +89,12 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "fstab.zram",
+    src: "etc/fstab.zram",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "ueventd.mt6781.rc",
     filename: "ueventd.rc",
     src: "etc/ueventd.rc",
