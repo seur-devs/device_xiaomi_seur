@@ -28,6 +28,9 @@ ro.vendor.system.mtk_mapi_support=1
 vendor.rild.libargs=-d /dev/ttyC0
 vendor.rild.libpath=mtk-ril.so
 
+# Rendering
+debug.cpurend.vsync=false
+
 # WiFi
 ro.wifi.channels=
 wifi.direct.interface=p2p0

@@ -41,8 +41,8 @@ on init
 # update cpus for cpuset cgroup
     write /dev/cpuset/foreground/cpus 0-7
     write /dev/cpuset/foreground/boost/cpus 0-7
-    write /dev/cpuset/background/cpus 2-5
-    write /dev/cpuset/system-background/cpus 1-3
+    write /dev/cpuset/background/cpus 0-3
+    write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/top-app/cpus 0-7
 
 on late-init
@@ -347,7 +347,7 @@ on post-fs-data
     setrlimit 8 -1 -1
 
     # CMDQ
-    chmod 0640 /dev/mtk_cmdq
+    chmod 0644 /dev/mtk_cmdq
     chown system system /dev/mtk_cmdq
 
     # MTK MDP
@@ -355,7 +355,7 @@ on post-fs-data
     chown system system /dev/mtk_mdp
 
     # MDP SYNC
-    chmod 0640 /dev/mdp_sync
+    chmod 0644 /dev/mdp_sync
     chown system system /dev/mdp_sync
 
     #OFFLOAD SERVICE
@@ -519,7 +519,7 @@ on post-fs-data
 
     # FM Radio device node
     chmod 0660 /dev/fm
-    chown media media /dev/fm
+    chown system system /dev/fm
 
     # device apc settings
 
