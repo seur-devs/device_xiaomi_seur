@@ -12,7 +12,7 @@ SPDX-License-Identifier: Apache-2.0
         <item>3</item>
         <item>5</item>
         <item>6</item>
-	<item>7</item>
+	      <item>7</item>
     </string-array>
 
     <!-- An array of triplets made of (camera ID, qualities, framerates).
@@ -39,6 +39,8 @@ SPDX-License-Identifier: Apache-2.0
              </string-array>
     -->
     <string-array name="config_additionalVideoConfigurations">
-        <item>0</item> <item>sd|hd|fhd</item> <item>30|60</item>
+        <item>0</item> <item>sd|hd</item> <item>30|60|120</item>
+        <item>1</item> <item>fhd</item> <item>30|60</item>
+        <item>2</item> <item>uhd</item> <item>30</item>
     </string-array>
 </resources>
